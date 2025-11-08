@@ -28,19 +28,19 @@ install_java() {
   case "$os-$arch" in
   linux-aarch64)
     java_url="https://download.oracle.com/java/24/archive/jdk-24_linux-aarch64_bin.tar.gz"
-    java_exe_path="jdk-24.0.2/bin/java"
+    java_exe_path="jdk-24/bin/java"
     ;;
   linux-x64)
     java_url="https://download.oracle.com/java/24/archive/jdk-24_linux-x64_bin.tar.gz"
-    java_exe_path="jdk-24.0.2/bin/java"
+    java_exe_path="jdk-24/bin/java"
     ;;
   mac-aarch64)
     java_url="https://download.oracle.com/java/24/archive/jdk-24_macos-aarch64_bin.tar.gz"
-    java_exe_path="jdk-24.0.2.jdk/Contents/Home/bin/java"
+    java_exe_path="jdk-24.jdk/Contents/Home/bin/java"
     ;;
   mac-x64)
     java_url="https://download.oracle.com/java/24/archive/jdk-24_macos-x64_bin.tar.gz"
-    java_exe_path="jdk-24.0.2.jdk/Contents/Home/bin/java"
+    java_exe_path="jdk-24.jdk/Contents/Home/bin/java"
     ;;
   esac
 
