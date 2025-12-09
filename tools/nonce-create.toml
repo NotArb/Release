@@ -1,0 +1,14 @@
+[launcher]
+task="create-nonce-account"
+jvm_args=["-Xmx512m"]
+
+[config]
+keypair_path="${DEFAULT_KEYPAIR_PATH}" # the fee payer and authority
+
+save_path="created-nonce-accounts" # optional
+
+blockhash_rpc_url="${DEFAULT_RPC_URL}"
+
+sender_rpc_urls=[
+    "${DEFAULT_RPC_URL}"
+]

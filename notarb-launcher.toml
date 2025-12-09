@@ -10,6 +10,7 @@ named_tasks=[
     { name="protect-keypair", path="tools/protect-keypair.toml" },
     { name="unwrap", path="tools/unwrap-wsol.toml" },
     { name="wrap", path="tools/wrap-sol.toml" },
+    { name="create-nonce-account", path="tools/nonce-create.toml" },
     { name="create-lookup-table", path="tools/lut-create.toml" },
     { name="extend-lookup-table", path="tools/lut-extend.toml" },
     { name="deactivate-lookup-table", path="tools/lut-deactivate.toml" },
