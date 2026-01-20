@@ -1,3 +1,10 @@
+## THIS REPO IS DEPRECATED
+## PLEASE VISIT OUR NEW WEBSITE FOR DOCS, INSTALLATION, AND MORE.
+https://notarb.com
+
+
+
+
 # NotArb
 
 [![Join Discord](https://dcbadge.limes.pink/api/server/eWG47Rzd6f)](https://discord.notarb.org)
